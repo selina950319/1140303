@@ -74,7 +74,9 @@ function handleDropdownChange() {
   } else if (selected === 'HackMD 筆記') {
     iframe.attribute('src', 'https://hackmd.io/@VaSL8OyHRUmypCfrbOyhVA/HkhPZYGj1l');
   }
-}
+    else if (selected === '測驗卷') {
+    iframe.attribute('src', 'https://selina950319.github.io/20250310/');
+  }
 
 function draw() {
   background(173, 216, 230); // 設置背景顏色為淺藍色
